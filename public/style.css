@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+ margin: 20px;
+ padding: 0;
+ background-color: #f4f4f4;
+ color: #333;
+}
+
+h1 {
+   color: #007BFF;
+}
+
+form {
+   margin-bottom: 20px;
+}
+
+ul {
+   list-style-type: none;
+}
+
+li {
+   margin: 10px 0;
+}
+
+a, button {
+   margin-left: 10px;
+   color: white;
+   padding: 10px;
+   text-decoration: none;
+   background-color: #007BFF;
+   font-weight: bold;
+    }
+   
+   button:hover{
+   background-color: aqua;
+   }

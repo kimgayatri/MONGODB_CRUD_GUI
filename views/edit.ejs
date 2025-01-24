@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Brand</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Edit Brand</h1>
+
+    <!-- Edit Brand Form -->
+    <form action="/edit/<%= brand._id %>" method="POST">
+        <input type="text" name="name" value="<%= brand.name %>" required>
+        <input type="text" name="description" value="<%= brand.description %>">
+        <button type="submit">Update Brand</button>
+    </form>
+
+    <a href="/">Back to Home</a>
+</body>
+</html>
